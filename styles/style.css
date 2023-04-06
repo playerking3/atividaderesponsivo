@@ -8,9 +8,10 @@
     --main: #effffc;
 }
 
-* a{
+* a {
     text-decoration: none;
 }
+
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -81,9 +82,6 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-.img_fundo img {
-    width: 500px;
-}
 
 .hero-text {
     text-align: center
@@ -99,6 +97,24 @@ nav a{
     margin-bottom: 40px;
 }
 
+.hero img{
+    width: 500px;
+}
+
+.btn-hero {
+    background-color: #fff;
+    color: #333;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-hero:hover {
+    background-color: #333;
+    color: #fff;
+}
 
 .about {
     padding: 50px 20px;
@@ -140,13 +156,6 @@ nav a{
     display: block;
 }
 
-.about {
-    clip-path: polygon(0 0,100% 0,100% calc(100% - 40px),50% 100%,0 calc(100% - 40px));
-  }
-  .pricing {
-    clip-path: polygon(0 0,50% 40px,100% 0,100% 100%,0 100%);
-    margin-top: -30px;
-  }
 
 .pricing {
     padding: 50px 20px;
@@ -183,22 +192,19 @@ nav a{
     text-align: center;
 }
 
-.btn {
-    background-color: #c5d6ff;
-    color: var(--preto);
+.btn-pricing {
+    background-color: #333;
+    color: #fff;
     font-size: 24px;
     padding: 10px 20px;
-    border-radius: 12px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
 }
 
-.btn:hover {
-    background-color: var(--azul-escuro);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.258);
-    color: var(--branco);
-    padding: 12px 22px;
-    transition: 0.2s;
+.btn-pricing:hover {
+    background-color: #fff;
+    color: #333;
 }
 
 footer {
