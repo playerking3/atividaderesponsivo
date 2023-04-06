@@ -5,13 +5,16 @@
     --azul-bb: #B4C5E4;
     --branco: #FBFFF1;
     --principal: #003566;
-    --main: #E8FCFF;
+    --main: #effffc;
+
 }
 
 
-* a{
+* a {
     text-decoration: none;
-}
+}   
+
+
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
@@ -65,6 +68,9 @@ header a:hover{
     justify-content: center;
     align-items: center;
 }
+.img_fundo img {
+    width: 500px;
+}
 
 .hero-text {
     text-align: center
@@ -81,8 +87,8 @@ header a:hover{
 }
 
 .btn-hero {
-    background-color: #fff;
-    color: #333;
+    background-color: #333;
+    color: #ffffff;
     font-size: 24px;
     padding: 10px 20px;
     border: none;
@@ -93,6 +99,7 @@ header a:hover{
 .btn-hero:hover {
     background-color: #333;
     color: #fff;
+    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.253);
 }
 
 .about {
