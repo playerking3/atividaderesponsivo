@@ -117,6 +117,17 @@ header a:hover{
     padding: 0;
 
 }
+.texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.texto div{
+    padding: 20px;
+}
+.texto i{
+    font-size: 38px;
+    padding-bottom: 15px;
+}
 
 .about li {
     font-size: 18px;
