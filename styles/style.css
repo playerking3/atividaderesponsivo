@@ -5,9 +5,8 @@
     --azul-bb: #B4C5E4;
     --branco: #FBFFF1;
     --principal: #003566;
-    --main: #EFFFFC;
+    --main: #effffc;
 }
-
 
 * a{
     text-decoration: none;
@@ -64,17 +63,17 @@ nav a{
     font-size: 17px;
   }
   
-  .button:hover {
+.button:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-    background-color: var(--main)
+    background-color: var(--main);
     color: black;
-  }
+}
   
-  .button:active {
+.button:active {
     transform: translateY(0.5em);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  }
+}
 .hero {
     background-color: var(--main);
     height: 500px;
@@ -100,20 +99,6 @@ nav a{
     margin-bottom: 40px;
 }
 
-.btn-hero {
-    background-color: #fff;
-    color: #333;
-    font-size: 24px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-hero:hover {
-    background-color: #333;
-    color: #fff;
-}
 
 .about {
     padding: 50px 20px;
@@ -194,19 +179,22 @@ nav a{
     text-align: center;
 }
 
-.btn-pricing {
-    background-color: #333;
-    color: #fff;
+.btn {
+    background-color: #c5d6ff;
+    color: var(--preto);
     font-size: 24px;
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    border-radius: 12px;
     cursor: pointer;
+    font-weight: bold;
 }
 
-.btn-pricing:hover {
-    background-color: #fff;
-    color: #333;
+.btn:hover {
+    background-color: var(--azul-escuro);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.258);
+    color: var(--branco);
+    padding: 12px 22px;
+    transition: 0.2s;
 }
 
 footer {
