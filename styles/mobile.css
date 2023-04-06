@@ -1,0 +1,17 @@
+@media (max-width: 769px) {
+    .img_fundo {
+        display: none;
+    }
+
+    .hero-text h2 {
+        width: 80%;
+    }
+
+    .hero-text p {
+        width: 80%;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+}    
