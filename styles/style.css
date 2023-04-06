@@ -86,21 +86,6 @@ header a:hover{
     margin-bottom: 40px;
 }
 
-.btn-hero {
-    background-color: #333;
-    color: #ffffff;
-    font-size: 24px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.btn-hero:hover {
-    background-color: #333;
-    color: #fff;
-    box-shadow:  4px 4px 4px rgba(0, 0, 0, 0.253);
-}
 
 .about {
     padding: 50px 20px;
@@ -181,8 +166,8 @@ header a:hover{
     text-align: center;
 }
 
-.btn-pricing {
-    background-color: var(--azul-bb);
+.btn {
+    background-color: #c5d6ff;
     color: var(--preto);
     font-size: 24px;
     padding: 10px 20px;
@@ -191,7 +176,7 @@ header a:hover{
     font-weight: bold;
 }
 
-.btn-pricing:hover {
+.btn:hover {
     background-color: var(--azul-escuro);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.258);
     color: var(--branco);
