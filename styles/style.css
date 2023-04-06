@@ -38,7 +38,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-
+    gap: 25px;
 }
 
 nav li {
@@ -61,7 +61,8 @@ nav a{
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     font-size: 17px;
-  }
+    border-radius: 15px;
+}
   
 .button:hover {
     transform: translateY(-3px);
