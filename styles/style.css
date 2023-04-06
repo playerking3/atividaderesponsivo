@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
@@ -46,14 +46,14 @@ nav li {
 
 nav a {
     color: var(--branco);
+    padding: 5px;
+    border-radius: 10px;
 }
 
 header a:hover{
     color: #333;
     background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .hero {
