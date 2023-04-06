@@ -6,11 +6,13 @@
     --branco: #FBFFF1;
     --principal: #003566;
     --main: #E8FCFF;
-    
+
 }
 
-
 * a{
+    text-decoration: none;
+}
+* a {
     text-decoration: none;
 }
 
@@ -80,6 +82,10 @@ header a:hover{
 .hero-text p {
     font-size: 24px;
     margin-bottom: 40px;
+}
+
+.hero img{
+    width: 500px;
 }
 
 .btn-hero {
