@@ -65,6 +65,9 @@ header a:hover{
     justify-content: center;
     align-items: center;
 }
+.img_fundo img {
+    width: 500px;
+}
 
 .hero-text {
     text-align: center
