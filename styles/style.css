@@ -37,14 +37,14 @@ nav li {
 
 nav a {
     color: #fff;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 header a:hover{
     color: #333;
     background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .hero {
