@@ -175,18 +175,21 @@ header a:hover{
 }
 
 .btn-pricing {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--azul-bb);
+    color: var(--preto);
     font-size: 24px;
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    border-radius: 12px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .btn-pricing:hover {
-    background-color: #fff;
-    color: #333;
+    background-color: var(--azul-escuro);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.258);
+    color: var(--branco);
+    padding: 12px 22px;
+    transition: 0.2s;
 }
 
 footer {
