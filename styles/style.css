@@ -174,7 +174,7 @@ nav a{
     padding: 22px;
     border-left: solid 2px var(--azul-escuro);
     border-right: solid 2px var(--azul-escuro);
-    border-radius: 12px;
+    border-radius: 7px;
 }
 
 .pricing p {
