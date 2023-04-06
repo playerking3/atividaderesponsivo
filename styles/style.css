@@ -43,7 +43,20 @@ header {
     justify-content: space-between;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.logo figure {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo img{
+    width: 80px;
+}
 
 header h1 {
     margin: 0;
