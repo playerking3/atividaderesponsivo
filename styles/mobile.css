@@ -4,14 +4,22 @@
     }
 
     .hero-text h2 {
-        width: 80%;
+        width: 90%;
+        padding-left: 5%;
     }
 
     .hero-text p {
-        width: 80%;
+        width: 90%;
+        padding-left: 5%;
     }
 
-    .hero-text {
-        text-align: center;
+    .hero {
+        justify-content: auto;
+    }
+}
+
+@media (max-width: 426px) {
+    header {
+        height: 300px;
     }
 }    
