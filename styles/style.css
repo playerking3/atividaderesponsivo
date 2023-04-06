@@ -46,18 +46,35 @@ nav li {
     margin: 0 10px;
 }
 
-nav a {
+nav a{
     color: var(--branco);
     padding: 5px;
     border-radius: 10px;
 }
 
-header a:hover{
-    color: #333;
-    background-color: #fff;
-    transition: 0.4s;
-}
-
+.button {
+    background-color: var(--principal);
+    color: #fff;
+    padding: 7px 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 17px;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background-color: var(--main)
+    color: black;
+  }
+  
+  .button:active {
+    transform: translateY(0.5em);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
 .hero {
     background-color: var(--main);
     height: 500px;
