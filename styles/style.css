@@ -4,6 +4,8 @@
     --azul: #3066BE;
     --azul-bb: #B4C5E4;
     --branco: #FBFFF1;
+    --principal: #003566;
+    --main: #E8FCFF;
 }
 
 
@@ -18,7 +20,7 @@ body {
 }
 
 header {
-    background-color: var(--azul);
+    background-color: var(--principal);
     color: var(--branco);
     display: flex;
     height: 70px;
@@ -57,7 +59,7 @@ header a:hover{
 }
 
 .hero {
-    background-color: var(--preto);
+    background-color: var(--main);
     height: 500px;
     display: flex;
     justify-content: center;
