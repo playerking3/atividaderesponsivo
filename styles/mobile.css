@@ -4,20 +4,85 @@
     }
 
     .hero-text h2 {
-        width: 90%;
-        padding-left: 5%;
+
+        margin-left: 5%;
     }
 
     .hero-text p {
-        width: 90%;
-        padding-left: 5%;
+
+        margin-left: 5%;
     }
 
-    .hero {
-        justify-content: auto;
-    }
+
 }
 
 @media (max-width: 426px) {
-    
-}    
+    .about ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+        .button{
+        padding: 0px ;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    header h1{
+        text-align: center;
+    }
+    nav{
+       display: flex;
+       justify-content: center;
+    }
+    .pricing ul{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .hero-text{
+        align-items: center;
+    }
+
+    .img_fundo{
+        height: 0px;
+        width: 0px;
+    }
+
+    .hero h2{
+        margin-top: 0px;
+        font-size: 40px;
+    }
+    .hero-text h2 {
+
+        margin-left: 0%;
+    }
+
+    .hero-text p {
+
+        margin-left: 0%;
+    }
+
+}
+  
+
+@media (max-width: 321px){
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav{
+        display: none;
+    }
+
+    .hamburguer{
+        display: flex;
+    }
+
+    .texto div{
+        padding: 0px;
+    }
+}
