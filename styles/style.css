@@ -63,6 +63,9 @@ header h1 {
     flex: 1;
 }
 
+.hamburguer{
+    display: none;
+}
 nav ul {
     list-style: none;
     margin: 0;
