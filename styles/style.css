@@ -81,6 +81,7 @@ nav a {
 .about {
     padding: 50px 20px;
     background-color: #f2f2f2;
+    text-align: center;
 }
 
 .about h2 {
@@ -96,7 +97,7 @@ nav a {
 .about ul {
     margin: 0;
     padding: 0;
-
+    display: block;
 }
 
 .about li {
