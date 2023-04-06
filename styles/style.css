@@ -1,3 +1,12 @@
+:root{
+    --preto: #3C3744;
+    --azul-escuro: #090C9B;
+    --azul: #3066BE;
+    --azul-bb: #B4C5E4;
+    --branco: #FBFFF1;
+}
+
+
 * a{
     text-decoration: none;
 }
@@ -9,8 +18,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--azul);
+    color: var(--branco);
     display: flex;
     height: 70px;
     padding: 0 20px;
@@ -36,7 +45,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: var(--branco);
 }
 
 header a:hover{
@@ -48,9 +57,7 @@ header a:hover{
 }
 
 .hero {
-    background-image: url("hero-background.jpg");
-    background-size: cover;
-    background-position: center;
+    background-color: var(--preto);
     height: 500px;
     display: flex;
     justify-content: center;
