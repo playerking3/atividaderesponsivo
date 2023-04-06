@@ -39,6 +39,14 @@ nav a {
     color: #fff;
 }
 
+header a:hover{
+    color: #333;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
 .hero {
     background-image: url("hero-background.jpg");
     background-size: cover;
@@ -109,6 +117,7 @@ nav a {
 .pricing {
     padding: 50px 20px;
     background-color: #e6e6e6;
+    text-align: center;
 }
 
 .pricing h2 {
@@ -119,6 +128,8 @@ nav a {
 .pricing ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
@@ -131,7 +142,7 @@ nav a {
 .pricing p {
     font-size: 18px;
     margin-bottom: 40px;
-    text-align: right;
+    text-align: center;
 }
 
 .btn-pricing {
