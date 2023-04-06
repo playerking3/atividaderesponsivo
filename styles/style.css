@@ -8,6 +8,21 @@
     --main: #effffc;
 }
 
+*::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+*::-webkit-scrollbar-track {
+    background: var(--principal);        /* color of the tracking area */
+    padding: 2px;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: var(--main);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--principal);  
+
+}
 * a{
     text-decoration: none;
 }
