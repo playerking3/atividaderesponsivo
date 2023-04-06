@@ -6,7 +6,6 @@
     --branco: #FBFFF1;
     --principal: #003566;
     --main: #E8FCFF;
-    --segundar
 }
 
 
@@ -135,6 +134,14 @@ header a:hover{
     margin-bottom: 10px;
     display: block;
 }
+
+.about {
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 40px),50% 100%,0 calc(100% - 40px));
+  }
+  .pricing {
+    clip-path: polygon(0 0,50% 40px,100% 0,100% 100%,0 100%);
+    margin-top: -30px;
+  }
 
 .pricing {
     padding: 50px 20px;
