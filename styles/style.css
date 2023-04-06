@@ -117,12 +117,31 @@ header a:hover{
     padding: 0;
 
 }
+.texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.texto div{
+    padding: 20px;
+}
+.texto i{
+    font-size: 38px;
+    padding-bottom: 15px;
+}
 
 .about li {
     font-size: 18px;
     margin-bottom: 10px;
     display: block;
 }
+
+.about {
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 40px),50% 100%,0 calc(100% - 40px));
+  }
+  .pricing {
+    clip-path: polygon(0 0,50% 40px,100% 0,100% 100%,0 100%);
+    margin-top: -30px;
+  }
 
 .pricing {
     padding: 50px 20px;
