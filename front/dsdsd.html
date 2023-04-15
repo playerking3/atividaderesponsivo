@@ -83,5 +83,235 @@
         <p>Copyright © 2023</p>
     </footer>
     <script src="https://kit.fontawesome.com/7f62cd2861.js" crossorigin="anonymous"></script>
+    <style>
+        :root{
+    --preto: #3C3744;
+    --azul-escuro: #090C9B;
+    --azul: #3066BE;
+    --azul-bb: #B4C5E4;
+    --branco: #FBFFF1;
+    --principal: #003566;
+    --main: #effffc;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+*::-webkit-scrollbar-track {
+    background: var(--principal);        /* color of the tracking area */
+    padding: 2px;
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: var(--main);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--principal);  
+
+}
+* a{
+    text-decoration: none;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: var(--principal);
+    color: var(--branco);
+    display: flex;
+    height: 70px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+    flex: 1;
+}
+
+.hamburguer{
+    display: none;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a{
+    color: var(--branco);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: var(--principal);
+    color: #fff;
+    padding: 7px 18px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 17px;
+    border-radius: 15px;
+}
+  
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background-color: var(--principal);
+    color: black;
+}
+  
+.button:active {
+    transform: translateY(0.5em);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.hero {
+    background-color: var(--main);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_fundo img {
+    width: 500px;
+}
+
+.hero-text {
+    text-align: center
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
+.about {
+    padding: 50px 20px;
+    background-color: var(--principal);
+    text-align: center;
+    color: var(--branco);
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+
+}
+.texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.texto div{
+    padding: 20px;
+}
+.texto i{
+    font-size: 38px;
+    padding-bottom: 15px;
+}
+
+.about li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.about {
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 40px),50% 100%,0 calc(100% - 40px));
+  }
+  .pricing {
+    clip-path: polygon(0 0,50% 40px,100% 0,100% 100%,0 100%);
+    margin-top: -30px;
+  }
+
+.pricing {
+    padding: 50px 20px;
+    background-color: var(--main);
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.pricing li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: inline;
+    padding: 22px;
+    border-left: solid 2px var(--azul-escuro);
+    border-right: solid 2px var(--azul-escuro);
+    border-radius: 5px;
+}
+
+.pricing p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #c5d6ff;
+    color: var(--preto);
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--azul-escuro);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.258);
+    color: var(--branco);
+    padding: 12px 22px;
+    transition: 0.2s;
+}
+
+footer {
+    background-color: var(--principal);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+    </style>
 </body>
 </html>
